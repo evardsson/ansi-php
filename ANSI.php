@@ -36,9 +36,8 @@ namespace evardsson\ansi;
  * This class provides simple colorizing shortcuts for ANSI text on colored terms in
  * PHP
  * USAGE:
- * $a = new ANSI();
- * print $a->color(ANSI::WHITE, ANSI::GREEN, array( ANSI::BOLD, ANSI::UNDERLINE, ANSI::BLINK)).
- * "This should be green background, white text, bright, underlined, and blinking".$a->reset()."\n";
+ * $a = new ANSI(ANSI::WHITE, ANSI::GREEN, array( ANSI::BOLD, ANSI::UNDERLINE, ANSI::BLINK));
+ * $a->pline("This should be green background, white text, bright, underlined, and blinking");
  */
 class ANSI 
 {
