@@ -35,6 +35,7 @@ $style int value from the list below, or array of ints, or a value name or array
 **Colors** for foreground/background must be one of:
 
 | ints         | strings  |
+| ------------ | -------- |
 | ANSI::BLACK  | 'black'  |
 | ANSI::RED    | 'red'    |
 | ANSI::GREEN  | 'green'  |
