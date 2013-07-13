@@ -1,0 +1,20 @@
+{
+	"name" : "evardsson/ansi-php",
+	"version" : "0.9",
+	"license" : "MIT",
+	"authors" : [
+		{
+			"name": "Sjan Evardsson",
+			"homepage": "https://github.com/evardsson/ansi-php"
+		}
+	],
+
+	"require" : {
+		"php" : ">=5.3.2"
+	},
+
+	"autoload" : {
+		"files" : ["ANSI.php"]
+	}
+
+}
