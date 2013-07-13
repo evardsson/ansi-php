@@ -452,7 +452,7 @@ EOL;
 		}
 		else if (is_int($this->style))
 		{
-			$this->switches[$s] = true;
+			$this->switches[$st] = true;
 		}
 	}
 	
